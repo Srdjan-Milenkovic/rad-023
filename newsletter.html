@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="dropdown.js"></script>
+    <link rel="stylesheet" href="newsletterstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <title>Pretplata na vesti</title>
+</head>
+<body>
+
+    <header>
+        <a href="#"><img src="img/mobileimg.png" alt="" class="mobile"></a>
+        <div class="headertext">
+        <a href="#">Planiranje</a>
+        <a href="#">Saveti</a>
+        <a href="#"><img src="img/logo.svg" alt=""></a>
+        <a href="#">Letovi</a>
+        <a href="#">O Nama</a>
+    </div>
+        <img src="img/dropdown.svg" class="mobile" onclick="dropmenu()" alt="">
+    </header>
+<div class="dropped"></div>
+<div class="dropmenu">
+    <a href="#" id="drop1">Planiranje</a>
+    <a href="#" id="drop2">Saveti</a>
+    <a href="#" id="drop3">Letovi</a>
+    <a href="#" id="drop4">O nama</a>
+</div>
+
+<div class="hero">
+    <div class="herotext">
+        <h1>Vidite svet.</h1>
+    <h2>Nađite vaše novo omiljeno mesto</h2>
+    </div>
+</div>
+<div class="belowhero">
+    <img src="img/paris.jpg" alt="">
+    <img src="img/london.jpg" alt="">
+    <img src="img/hong_kong.jpg" alt="">
+    <img src="img/los_angeles.jpg" alt="">
+</div>
+<div class="section">
+    <div class="sectiontext">
+        <h1>Planirajte putovanje</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed id aliquet ante, sit amet porta justo.
+            Aliquam fermentum, odio eu porttitor scelerisque,           
+        </p>
+        <div class="sectionbutton"><a href="#">Pogledaj</a></div>
+    </div>
+   <div class="sectionimg" id="img1"></div>
+</div>
+
+<div class="section">
+    <div class="sectiontext">
+        <h1>Saveti</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed id aliquet ante, sit amet porta justo.
+            Aliquam fermentum, odio eu porttitor scelerisque,           
+        </p>
+        <div class="sectionbutton"><a href="#">Pogledaj</a></div>
+    </div>
+    <div class="sectionimg" id="img2"></div>
+</div>
+
+
+    <div class="background">
+        <div class="newsletter">
+            <div class="topsection">
+                <img src="img/topicon.svg" alt="">    
+                <h1>Pretplati se na vesti</h1>
+                <p>
+                    Pretplati se i jednom nedeljno šaljemo najnovije vesti iz naše kuće. <br>
+                    Vesti pišu naši provereni  saradnici.
+                </p>
+            </div>
+            <div class="bottomsection">
+                <h1>Pretplati se</h1>
+                <div class="input">
+                    <input type="email" placeholder="Adresa e-pošte">
+                    <div class="button"><a href=""><img src="img/sendicon.svg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><a href="#"><img src="img/logo.svg" alt=""></a>
+    <div class="footerlinks">
+        <a href="#">Planiranje</a>
+        <a href="#">O Nama</a>
+        <a href="#">Saveti</a>
+        <a href="#">Politika privatnosti</a>
+        <a href="#">Letovi</a>
+        <a href="#">Zapošljenje</a>
+    </div>
+    
+    </footer>
+</body>
+</html>
